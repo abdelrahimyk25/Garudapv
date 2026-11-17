@@ -13,7 +13,7 @@ public class Joueur {
     public Joueur(String x, int nombrenavette){
         this.name = x;
         this.objectives = new ArrayList<>();
-        this.hand = new ArrayList<>()
+        this.hand = new ArrayList<>();
         this.navetteRestaunts = nombrenavette;
         this.score = 0;
         //this.routepossede = parameter;
